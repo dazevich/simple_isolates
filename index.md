@@ -14,8 +14,8 @@ final runner = await SimpleIsolates.getRunner();
 ```dart
  final runner = SimpleIsolates.activeRunners.first;
  final request = RequestSync(
-  arguments: {},
-  callBack: (args) => 2 + 2
+   arguments: {},
+   callBack: (args) => 2 + 2
  );
  final runnerResult = await runner.run(RequestSync(arguments: args, callBack: callBack));
  // runnerResult = 4
