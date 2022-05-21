@@ -13,3 +13,5 @@
 - `void closeIsolate(String id)` - закрывает изолят id
 
 ## Runner
+### Поля
+### Методы
