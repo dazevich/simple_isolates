@@ -11,8 +11,8 @@ dependencies:
   flutter:
     sdk: flutter
   uuid: ^3.0.6
-  http: ^0.13.4
   logger: ^1.1.0
+  http: ^0.13.4
 
 dev_dependencies:
   flutter_test:
